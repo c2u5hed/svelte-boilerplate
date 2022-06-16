@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css">
+    <title>Svelte Boilerplate</title>
+  </head>
+  <body>
+  </body>
+  <script type="module">
+    import Index from './pages/index.svelte'
+    export const app = new Index({ target: document.querySelector('body') })
+  </script>
+</html>
